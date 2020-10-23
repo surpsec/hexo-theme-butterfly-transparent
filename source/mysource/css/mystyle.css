@@ -1,0 +1,258 @@
+
+/*  添加图标颜色 ===========================================*/
+/* 哔哩哔哩 */
+i.iconfont.icon-bilibili {
+    color: red;
+}
+/* 归档 */
+i.fas.fa-archive {
+    color: mediumslateblue;
+}
+
+/* rss订阅 */
+i.iconfont.icon-RSS {
+    color: orange;
+}
+
+/* 邮件信封 */
+i.fas.fa-envelope {
+    color: darkorange;
+}
+
+/* aside icons color settings */
+/* 历史 */
+i.fas.fa-history {
+    color: mediumturquoise;
+}
+
+/* 网站数据 */
+i.fas.fa-chart-line {
+    color: blue;
+}
+/* 图标颜色结束  end===================================================== */
+
+
+
+/*  设置banner底部阴影===============================================*/
+header#page-header.full_page {
+    box-shadow: 0 -80px 10px -2px #ffffff83 inset;
+    box-sizing: border-box;
+}
+
+/* end============================================================= */
+
+
+
+/* 滚动条优化 ===============================================================*/
+::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+
+::-webkit-scrollbar-track {
+    background-color:rgba(55, 99, 106, 0.699);
+    border-radius: 2em;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #fc0a33d5;
+    background-image: -webkit-linear-gradient(45deg,
+            rgba(198, 228, 28, 0.4) 25%,
+            transparent 25%,
+            transparent 50%,
+            rgba(172, 156, 7, 0.4) 50%,
+            rgba(248, 244, 19, 0.84) 75%,
+            transparent 75%,
+            transparent);
+    border-radius: 2em;
+}
+::-webkit-scrollbar-corner {
+    background-color: transparent;
+}
+::-moz-selection {
+    color: #fff;
+    background-color: #ec29f3;
+}
+/* end=================================================== */
+
+
+
+
+/*鼠标样式==================================================*/
+body,
+html {
+    cursor: url(https://cdn.jsdelivr.net/gh/zykjofficial/zykjresource@master/img/Arrow.cur),
+	auto !important;
+}
+
+a,
+img {
+    cursor: url(https://cdn.jsdelivr.net/gh/zykjofficial/zykjresource@master/img/link.cur),
+	auto !important;
+}
+
+/*a标签*/
+a:hover {
+    cursor: url(https://cdn.jsdelivr.net/gh/zykjofficial/zykjresource@master/img/link.cur),
+	auto !important;
+}
+
+/*按钮*/
+button:hover {
+    cursor: url(https://cdn.jsdelivr.net/gh/zykjofficial/zykjresource@master/img/link.cur),
+	auto !important;
+}
+
+/*i标签*/
+i:hover {
+    cursor: url(https://cdn.jsdelivr.net/gh/zykjofficial/zykjresource@master/img/link.cur),
+	auto !important;
+}
+
+/*页脚a标签*/
+#footer-wrap a:hover {
+    cursor: url(https://cdn.jsdelivr.net/gh/zykjofficial/zykjresource@master/img/link.cur),
+	auto !important;
+}
+
+/*分页器*/
+#pagination .page-number:hover {
+    cursor: url(https://cdn.jsdelivr.net/gh/zykjofficial/zykjresource@master/img/link.cur),
+	auto !important;
+}
+
+/*头部的导航栏*/
+#nav .site-page:hover {
+    cursor: url(https://cdn.jsdelivr.net/gh/zykjofficial/zykjresource@master/img/link.cur),
+	auto !important;
+}
+/*鼠标样式END=======================================================*/
+
+
+
+
+/*kbd====================================================*/
+kbd {
+    display: inline-block;
+    color: #666;
+    font: bold 9pt arial;
+    text-decoration: none;
+    text-align: center;
+    padding: 2px 5px;
+    margin: 0 5px;
+    background: #eff0f2;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border-top: 1px solid #f5f5f5;
+    -webkit-box-shadow: inset 0 0 20px #e8e8e8, 0 1px 0 #c3c3c3, 0 1px 0 #c9c9c9,
+        0 1px 2px #333;
+    -moz-box-shadow: inset 0 0 20px #e8e8e8, 0 1px 0 #c3c3c3, 0 1px 0 #c9c9c9,
+        0 1px 2px #333;
+    -webkit-box-shadow: inset 0 0 20px #e8e8e8, 0 1px 0 #c3c3c3, 0 1px 0 #c9c9c9,
+        0 1px 2px #333;
+    box-shadow: inset 0 0 20px #e8e8e8, 0 1px 0 #c3c3c3, 0 1px 0 #c9c9c9,
+        0 1px 2px #333;
+    text-shadow: 0 1px 0 #f5f5f5;
+}
+
+/* end=================================================== */
+
+
+
+/* 页码底色======================================= */
+#pagination .page-number {
+    background-color: cornsilk;
+}
+a.extend.net{
+    background-color: cornsilk;
+}
+
+/* ================================================ */
+
+
+/* md图片样式 =======================================*/
+img[src*="#img-radius"] {
+    border-radius: 9px;
+}
+/* end==================================================== */
+
+
+
+/* 去掉全局顶部图片 */
+/* #page-header {
+    background: transparent !important;
+}  */
+
+
+main#content-inner{
+    border-width: 30px;
+    padding-top: 20px;
+    /* background-color: #ffffff5e; */
+    /* box-shadow: 0px 5px 10px 8px #ffffff; */  /*边框效果*/
+}
+
+
+/* 侧边栏 */
+#aside_content .card-widget:hover {
+    -webkit-box-shadow: 0 4px 12px 12px rgba(245, 20, 215, 0.3);
+    /* box-shadow: 0 4px 12px 12px rgba(245, 20, 215, 0.3); */
+    box-shadow: 0 0px 10px 5px #06d8fdc7 inset,0 0px 10px 5px #06d8fdc7 ;
+    background-color: #fffefec4;
+}
+
+[data-theme='light'] {
+    --card-bg: rgba(255, 255, 255, 0.57);
+    
+}
+div.card-content{
+    box-shadow: 0 0px 10px 5px #fffeff inset;
+}
+
+/* 文章流*/
+#recent-posts>.recent-post-item {
+    padding: 10px;
+    /* width: 850px;
+
+    padding: 10px;
+    transform: translateX(20px); */
+    background-color: rgba(255, 255, 255, 0.57);
+    box-shadow: 0 0px 10px 5px #fffefe inset;
+}
+#recent-posts>.recent-post-item .post_cover img.post_bg{ /*文章封面*/
+    opacity: 0.78;
+    transform: translateX(80px); /*x轴移动*/
+}
+#recent-posts > .recent-post-item:hover { 
+    -webkit-box-shadow: 0 4px 12px 12px #fffefe inset;
+    /* box-shadow: 0 0px 10px 5px #fffefe inset,0 0px 10px 5px #fffefe ; */
+    box-shadow: 0 0px 10px 5px #fffefe inset,0 0px 10px 5px #06d8fde8 ;
+    background-color: #fffefec4;
+}
+
+
+
+/* 去掉footer背景================================================*/
+#footer{
+    background: transparent !important;
+} 
+/* end========================================================= */
+
+
+
+
+
+
+
+/* 文章详情页===================================================== */
+div#post{
+    background-color: rgba(255, 255, 255, 0.57);
+    box-shadow: 0 0px 10px 5px #fffefe inset;
+}
+
+div#post:hover{
+    -webkit-box-shadow: 0 4px 12px 12px #fffefe inset;
+    /* box-shadow: 0 0px 10px 5px #fffefe inset,0 0px 10px 5px #fffefe ; */
+    box-shadow: 0 0px 10px 5px #fffefe inset,0 0px 10px 5px #06d8fde8 ;
+    background-color: #04fcf08a;
+}
+/* 文章详情========================================================= */
