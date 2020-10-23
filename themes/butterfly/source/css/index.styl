@@ -1,0 +1,27 @@
+@import 'nib'
+@import '_third-party/normalize.min.css'
+// project
+@import 'var'
+@import '_global/*'
+@import '_highlight/highlight'
+@import '_page/*'
+@import '_layout/*'
+@import '_tags/*'
+@import '_mode/*'
+
+// search
+if hexo-config('algolia_search.enable')
+  @import '_search/index'
+  @import '_search/algolia'
+
+if hexo-config('local_search') && hexo-config('local_search.enable')
+  @import '_search/index'
+  @import '_search/local-search'
+
+// 波浪特效
+.hans-container
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 120px;
+  z-index: -1
